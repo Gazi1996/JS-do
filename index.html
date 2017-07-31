@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="pierwszy" onclick="klikPierwszy()">
+        Pierwszy
+        <div onclick="klikHeader(event)"> Tekst</div>
+    </div>
+
+    <section id="sectionFirst">
+        <div id="parFirst">
+            <p>Tekst w tym akapicie.</p>
+            <a class="link" onclick="alarm(event);" href="#">Akapit Link 1</a> <a class="link" href="#">Akapit Link 2</a>
+        </div>
+        <div id="parSecond">
+            <p>Tekst w tym akapicie.</p>
+        </div> <a class="link" href="#la">Link 1</a> <a class="link" href="#">Link 2</a> <a class="link" href="#">Link 3</a> <a class="link" href="#" id="mojLink">Link 4</a> </section>
+
+
+
+    <form>
+
+        <input style="border:1px solid yellow;" id="test">Wpisz coś <span id="error"></span><br>
+        <input type="button" id="klawisz" value="Kliknij" onclick="weryfikuj();">
+
+    </form>
+
+    <script src="model/6-zdarzenie-events.js"></script>
+
+</body>
+
+</html>
